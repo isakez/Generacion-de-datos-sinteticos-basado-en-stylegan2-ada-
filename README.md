@@ -14,9 +14,11 @@ Después de ejecutar este notebook deberiamos tener el conjunto de datos de entr
 
 ![3D_slicer](https://github.com/isakez/TFG/assets/42270381/b5c65a2e-a5a2-477b-ac35-9514af3fddd6)
 
+Imagen del volumen nrrd y las distintas vistas (coronal, axial y sagital)
+
 ![planos_aumento (1)](https://github.com/isakez/TFG/assets/42270381/aeebc5fe-77db-48e9-be05-1b485e3bb6e0)
 
-
+Esquema del proceso de estracción de imágenes bidimensionales a partir de volúmenes 3D.
 
 ## Clasificador_Imagenes.ipynb
 
@@ -25,6 +27,8 @@ Notebook donde explaramos e iteramos varias veces para entrenar un modelo clasif
 ## StyleGAN2_Model.ipynb
 
 Aquí hacemos uso del respositorio de styleGAN2-ada para entrenar nuestro modelo, en este caso hasta las 1200kimg. Una vez entrenado usamos el mismo notebook para generar las imágenes sinteticas con distintos valores de truncación. Las imágenes aquí generadas formaran el conjunto de datos para el entrenamiento semi-supervisado.
+
+Las siguientes imágenes son muestras sintéticas generadas por el modelo GAN que he entrenado.
 
 ![muestra_fakes000800](https://github.com/isakez/TFG/assets/42270381/04ef7cf8-19bb-49a1-a05e-c9551b2720ac)
 
@@ -38,6 +42,7 @@ En este notebook iteramos de la siguiente forma, entrenamos un clasificador base
 
 Aquí  ponemos a prueba nuetros distintos modelos clasificadores con un conjunto de datos que no han visto durante su entrenamiento.
 
+Tabla con los resultados de los clasificadores entrenados de forma semi-supervisada y el clasificador base.
 ![Tabla_resultados](https://github.com/isakez/TFG/assets/42270381/41638522-ef0a-4699-9483-5b5cfbb9e077)
 
 
