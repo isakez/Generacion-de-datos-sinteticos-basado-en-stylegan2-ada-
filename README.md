@@ -1,5 +1,5 @@
 # AUMENTO DE DATOS BASADO EN GANS PARA LA CLASIFICACIÓN DE PLANOS CEREBRALES DE INFANTES PREMATUROS
-Proyecto del TFG donde exploramos técnicas de aprendizaje automático en un contexto médico. Nos centramos en la generación de imágenes sintéticas mediante un modelo entrenado a partir del repositorio de StyleGAN2-ADA.
+Proyecto de TFG donde exploramos técnicas de aprendizaje automático en un contexto médico. Nos centramos en la generación de imágenes sintéticas mediante un modelo entrenado a partir del repositorio de StyleGAN2-ADA.
 
 El objetivo es evaluar el rendimiento de un clasificador de imágenes de planos cerebrales de infantes prematuros, entrenado en distintos casos.
 1. Con el dataset completo etiquetado, aplicando un aprendizaje supervisado
